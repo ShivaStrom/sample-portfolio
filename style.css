@@ -3,7 +3,7 @@ body{
   padding: 0;
 }
 .header{
-  height: 60px;
+  height: 70px;
   background-color: lightseagreen;
   display: flex;
   justify-content: space-between;
@@ -27,6 +27,27 @@ body{
   width: 50px;
   margin-left: 20px;
   cursor: pointer;
+}
+.user-img{
+  position: relative;
+}
+.tooltip{
+  position: absolute;
+  left: 15px;
+  top: 60px;
+  width: 55px;
+  height: 25px;
+  background-color: gray;
+  text-align: center;
+  border-radius: 5px;
+  padding-top: 5px;
+  font-style: normal;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.15s;
+}
+.user-img:hover .tooltip{
+  opacity: 1;
 }
 .header-feature{
   display: flex;
