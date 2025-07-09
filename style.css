@@ -203,3 +203,44 @@ body{
 .info-para{
   width: 300px;
 }
+
+/* contact */
+.contact{
+  background: #833AB4;
+  background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 100%, rgba(252, 176, 69, 1) 100%);
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+  justify-content: space-around;
+  height: 300px;
+}
+.contact-info{
+  text-transform: uppercase;
+}
+.contact-info img{
+  width: 25px;
+}
+.contact-channel{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  column-gap: 30px;
+  padding-left: 10px;
+}
+.email a{
+  text-decoration: none;
+  color: #008bf1;
+  text-transform: lowercase;  
+}
+.label{
+  margin: 5px;
+}
+.input{
+  border: solid 0px;
+    margin-top: 5px;
+    margin-bottom: 13px;
+    padding: 8px 8px;
+    width: 250px;
+    border-radius: 10px;
+}
