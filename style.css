@@ -244,3 +244,11 @@ body{
     width: 250px;
     border-radius: 10px;
 }
+.submit{
+  padding: 8px 15px;
+  background: black;
+  color: #fff;
+  border: solid 1px #fff;
+  border-radius: 10px;
+  font-size: 14px;
+}
